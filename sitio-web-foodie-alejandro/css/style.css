@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,800&display=swap');
+
+:root{
+--color-textos:#606060;
+--color-negro:#000;
+--fondo-header:#f4f3f7;
+--color-menu:#121212;
+--color-menu-hover:#218fe6;
+--color-titulos:#303030;
+--color-azul:#218fe6;
+--fondo-gris:#f8f8f8;
+--color-letra-gris:#888;
+--color-subtitulo:#777;
+--fondo-footer-columns:#1b1b1b;
+--fondo-footer-copy:#151515;
+--color-footer:#797979;
+}
+
+@font-face {      
+font-family: "Brasika";      
+src: url("../font/BrasikaDisplay.ttf") format('truetype');    
+}
+
+header h1{
+font-family: "Brasika"
+
+}
+header h3{
+font-family: "Crimson Pro', serif";
+}
+
+
+header {
+      background-color: #FFFFF1;
+}
+
+footer {
+      background-color: #054F0B;
+}
+
+.content {
+      padding: 20px;
+}
+
+h4 {
+	padding-top: 50px;
+}
+
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 100px;
+	font-family: "Brasika";      
+src: url("../font/BrasikaDisplay.ttf") format('truetype'); 
+}
+
+.title p {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+h4 {
+	color: #FFFFFF;
+	font-family: "CrimsonText Bold";
+	text-underline-position: below;
+}
+
+p {
+	color: #FFFFFF;
+	font-family: "CrimsonText Bold";
+}
+
+footer{
+	padding: 40px;
+	color: #fff;
+}
+
+footer h4 {
+	padding-top: 40px;
+}
+
+footer i {
+	font-size: 40px;
+	color: #fff;
+}
+
+img {
+	padding-left: 20px;
+}
